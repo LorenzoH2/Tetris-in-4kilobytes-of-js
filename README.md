@@ -1,2 +1,2 @@
 # Tetris-in-4kilobytes-of-js
-Tetris copy in 4 kilobytes of js. This was for a school project so I actually didn't make the code but rather the css and the html.
+Tetris copy in 4 kilobytes of js. This was for a school project so I actually didn't make the code but rather the css and the html. (The video in the page wont work and everything is in spanish)
