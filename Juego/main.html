@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tetris</title>
+    <link href ="styles.css" type="text/css" rel ="stylesheet">
+    <link rel="icon" type="image/x-icon" href="pixil-frame-0.png">
+</head>
+<body>
+    <form action="http://127.0.0.1:5500/Pagina/tetris.html">
+        <button class="title"><img src="logo.png" alt="Back to the Tetris Page" height="50px" width="150px"></button>
+    </form>
+    <script src="tis.js"></script>
+    <script>
+        var konamiCode= [38, 38, 40, 40, 37, 39, 37, 39, 66, 65];
+        for (i in konamiCode) {
+            var e = document.createEvent('Event');
+            e.initEvent('keydown', true, true);
+            e.keyCode = konamiCode[i];
+            document.dispatchEvent(e);
+        }
+    </script>
+</body>
+</html>
